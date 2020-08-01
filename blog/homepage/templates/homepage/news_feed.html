@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<middle class="middle">
+    <div class="mid-feed-1">
+        <h1>Apple Watch</h1>
+        <p>Price: $400</p>
+        <p>Best Watch in the World.</p>
+        <p>Ratings: 4.5/5</p>
+        <p>Location: 33 main st, Toronto</p>
+    </div>
+    <div class="mid-feed-2">
+        
+        <img class="img-feed-1"
+        src="{% static 'img/product-1.jpg' %}" alt="">
+    </div>
+</middle>
+
+<middle class="middle-2">
+    <div class="mid-feed-3">
+        <h1>Lotion Shampoo</h1>
+        <p>Price: $90</p>
+        <p>Best Shampoo in the World.</p>
+        <p>Ratings: 4.7/5</p>
+        <p>Location: 33 main st, Toronto</p>
+    </div>
+    <div class="mid-feed-4">
+        
+        <img class="img-feed-2"
+        src="{% static 'img/product-2.jpg' %}" alt="">
+    </div>
+</middle>
+
+
+
+{% endblock %}
